@@ -38,7 +38,7 @@ const T = {
     archCaption: "Архитектура: Urban Creative · арх. Д. Бояджиев · М 1:100",
 
     aggressiveSub: "50/20/20/10",
-    standardSub: "30/10/10/20/20/10", deferred: "Промоционална",
+    standardSub: "30/20/30/20", deferred: "Промоционална",
     aptNo: "Апартамент №",
     sectionFloor: "Секция / Етаж",
     addToCompare: "+ Сравнение",
@@ -60,8 +60,8 @@ const T = {
     m2: "м²",
     m2x1500: "м² × €1,500/м²",
     tooltipBuy: "(всеки м² × €1,500)",
-    standardSubVal: "30/10/10/20/20/10",
-    aggressiveSubVal: "50/20/20/10",
+    standardSubVal: "30/20/30/20",
+    aggressiveSubVal: "80/20 · −200 €/м²",
     inventory: "Инвентар", payment: "Плащания", compare: "Сравнение", inquiry: "Запитване",
     title: "NEW TOWER", subtitle: "ул. Девня 2, Център, Варна",
     expoTag: "● Вълна 1 · ПРОЕКТ НОВ · 04.05.2026",
@@ -94,7 +94,7 @@ const T = {
     pickParking: "Избери първо апартамент", noParking: "Няма избрано паркомясто",
     noCellar: "Този апартамент няма прикачена изба",
     standard: "СТАНДАРТНА", aggressive: "АГРЕСИВНА −3%",
-    standardName: "Стандартна схема", aggressiveName: "Агресивна схема", deferredName: "Промоция 30/70 (следващи 50)", promoTitle: "ПРОМОЦИЯ 30/70 · следващите 50 резервации", promoSub: "30% при предварителен договор · 70% на Акт 15 · стандартна цена", promoLeft: "остават от 50", promoEnded: "Промоцията приключи", priceOnRequest: "Цената не е налична за резервирани обекти", inSelection: "В селекцията", addToSelection: "Добави в селекция", mySelection: "Моята селекция", inquiryTitle: "Изпрати запитване", selectedProps: "Избрани имоти", fName: "Име и фамилия *", fPhone: "Телефон *", fEmail: "Имейл", fBudget: "Бюджет (напр. до €250 000)", fComment: "Коментар / въпрос", schemeStd: "Стандартна схема", schemeAgg: "Агресивна (−3%)", schemePromo: "Промоционална 30/70", sendInquiry: "Изпрати запитване", inquiryNote: "Ще се свържем с вас в рамките на 24 часа.",
+    standardName: "Стандартна схема", aggressiveName: "Схема 80/20", deferredName: "Промоция 30/70 (следващи 50)", promoTitle: "ПРОМОЦИЯ 30/70 · следващите 50 резервации", promoSub: "30% при предварителен договор · 70% на Акт 15 · стандартна цена", promoLeft: "остават от 50", promoEnded: "Промоцията приключи", youSave: "Спестявате", deferSurcharge: "Надценка за разсрочване", priceOnRequest: "Цената не е налична за резервирани обекти", inSelection: "В селекцията", addToSelection: "Добави в селекция", mySelection: "Моята селекция", inquiryTitle: "Изпрати запитване", selectedProps: "Избрани имоти", fName: "Име и фамилия *", fPhone: "Телефон *", fEmail: "Имейл", fBudget: "Бюджет (напр. до €250 000)", fComment: "Коментар / въпрос", schemeStd: "Стандартна схема", schemeAgg: "Агресивна (−3%)", schemePromo: "Промоционална 30/70", sendInquiry: "Изпрати запитване", inquiryNote: "Ще се свържем с вас в рамките на 24 часа.",
     reservationFee: "Резервационна такса",
     reservationNote: "при подписване на резервационен договор",
     reservationDeduct: "↻ ВЪЗСТАНОВЯВА СЕ ПРИ ПРЕДВАРИТЕЛЕН ДОГОВОР",
@@ -129,7 +129,7 @@ const T = {
     archCaption: "Architecture: Urban Creative · arch. D. Boyadzhiev · scale 1:100",
 
     aggressiveSub: "50/20/20/10",
-    standardSub: "30/10/10/20/20/10",
+    standardSub: "30/20/30/20",
     aptNo: "Apt. №",
     sectionFloor: "Section / Floor",
     addToCompare: "+ Compare",
@@ -151,8 +151,8 @@ const T = {
     m2: "m²",
     m2x1500: "m² × €1,500/m²",
     tooltipBuy: "(every m² × €1,500)",
-    standardSubVal: "30/10/10/20/20/10",
-    aggressiveSubVal: "50/20/20/10",
+    standardSubVal: "30/20/30/20",
+    aggressiveSubVal: "80/20 · −200 €/м²",
     inventory: "Inventory", payment: "Payment", compare: "Compare", inquiry: "Inquiry",
     title: "NEW TOWER", subtitle: "Devnya 2, Center, Varna",
     expoTag: "● Wave 1 · NEW PROJECT · 04.05.2026",
@@ -185,7 +185,7 @@ const T = {
     pickParking: "First select an apartment", noParking: "No parking selected",
     noCellar: "This apartment has no storage attached",
     standard: "STANDARD", aggressive: "AGGRESSIVE −3%",
-    standardName: "Standard scheme", aggressiveName: "Aggressive scheme", deferredName: "Promo 30/70 (next 50)", promoTitle: "PROMO 30/70 · next 50 reservations", promoSub: "30% at preliminary contract · 70% at Act 15 · standard price", promoLeft: "left of 50", promoEnded: "Promo ended", priceOnRequest: "Price not available for reserved units", inSelection: "In selection", addToSelection: "Add to selection", mySelection: "My selection", inquiryTitle: "Send inquiry", selectedProps: "Selected units", fName: "Full name *", fPhone: "Phone *", fEmail: "Email", fBudget: "Budget (e.g. up to €250,000)", fComment: "Comment / question", schemeStd: "Standard scheme", schemeAgg: "Aggressive (−3%)", schemePromo: "Promo 30/70", sendInquiry: "Send inquiry", inquiryNote: "We will contact you within 24 hours.",
+    standardName: "Standard scheme", aggressiveName: "Scheme 80/20", deferredName: "Promo 30/70 (next 50)", promoTitle: "PROMO 30/70 · next 50 reservations", promoSub: "30% at preliminary contract · 70% at Act 15 · standard price", promoLeft: "left of 50", promoEnded: "Promo ended", youSave: "You save", deferSurcharge: "Deferral surcharge", priceOnRequest: "Price not available for reserved units", inSelection: "In selection", addToSelection: "Add to selection", mySelection: "My selection", inquiryTitle: "Send inquiry", selectedProps: "Selected units", fName: "Full name *", fPhone: "Phone *", fEmail: "Email", fBudget: "Budget (e.g. up to €250,000)", fComment: "Comment / question", schemeStd: "Standard scheme", schemeAgg: "Aggressive (−3%)", schemePromo: "Promo 30/70", sendInquiry: "Send inquiry", inquiryNote: "We will contact you within 24 hours.",
     reservationFee: "Reservation fee",
     reservationNote: "upon signing reservation agreement",
     reservationDeduct: "↻ DEDUCTED AT PRELIMINARY CONTRACT",
@@ -220,7 +220,7 @@ const T = {
     archCaption: "Архитектура: Urban Creative · арх. Д. Бояджиев · М 1:100",
 
     aggressiveSub: "50/20/20/10",
-    standardSub: "30/10/10/20/20/10",
+    standardSub: "30/20/30/20",
     aptNo: "Квартира №",
     sectionFloor: "Секция / Этаж",
     addToCompare: "+ Сравнение",
@@ -242,8 +242,8 @@ const T = {
     m2: "м²",
     m2x1500: "м² × €1,500/м²",
     tooltipBuy: "(каждый м² × €1,500)",
-    standardSubVal: "30/10/10/20/20/10",
-    aggressiveSubVal: "50/20/20/10",
+    standardSubVal: "30/20/30/20",
+    aggressiveSubVal: "80/20 · −200 €/м²",
     inventory: "Каталог", payment: "Оплата", compare: "Сравнение", inquiry: "Запрос",
     title: "NEW TOWER", subtitle: "ул. Девня 2, Центр, Варна",
     expoTag: "● Волна 1 · ПРОЕКТ НОВ · 04.05.2026",
@@ -276,7 +276,7 @@ const T = {
     pickParking: "Сначала выберите квартиру", noParking: "Паркоместо не выбрано",
     noCellar: "У этой квартиры нет кладовой",
     standard: "СТАНДАРТНАЯ", aggressive: "АГРЕССИВНАЯ −3%",
-    standardName: "Стандартная схема", aggressiveName: "Агрессивная схема", deferredName: "Промо 30/70 (следующие 50)", promoTitle: "ПРОМО 30/70 · следующие 50 броней", promoSub: "30% при предв. договоре · 70% на Акт 15 · стандартная цена", promoLeft: "осталось из 50", promoEnded: "Промо завершено", priceOnRequest: "Цена недоступна для забронированных объектов", inSelection: "В подборке", addToSelection: "Добавить в подборку", mySelection: "Моя подборка", inquiryTitle: "Отправить запрос", selectedProps: "Выбранные объекты", fName: "Имя и фамилия *", fPhone: "Телефон *", fEmail: "Эл. почта", fBudget: "Бюджет (напр. до €250 000)", fComment: "Комментарий / вопрос", schemeStd: "Стандартная схема", schemeAgg: "Агрессивная (−3%)", schemePromo: "Промо 30/70", sendInquiry: "Отправить запрос", inquiryNote: "Мы свяжемся с вами в течение 24 часов.",
+    standardName: "Стандартная схема", aggressiveName: "Схема 80/20", deferredName: "Промо 30/70 (следующие 50)", promoTitle: "ПРОМО 30/70 · следующие 50 броней", promoSub: "30% при предв. договоре · 70% на Акт 15 · стандартная цена", promoLeft: "осталось из 50", promoEnded: "Промо завершено", youSave: "Вы экономите", deferSurcharge: "Наценка за рассрочку", priceOnRequest: "Цена недоступна для забронированных объектов", inSelection: "В подборке", addToSelection: "Добавить в подборку", mySelection: "Моя подборка", inquiryTitle: "Отправить запрос", selectedProps: "Выбранные объекты", fName: "Имя и фамилия *", fPhone: "Телефон *", fEmail: "Эл. почта", fBudget: "Бюджет (напр. до €250 000)", fComment: "Комментарий / вопрос", schemeStd: "Стандартная схема", schemeAgg: "Агрессивная (−3%)", schemePromo: "Промо 30/70", sendInquiry: "Отправить запрос", inquiryNote: "Мы свяжемся с вами в течение 24 часов.",
     reservationFee: "Регистрационный сбор",
     reservationNote: "при подписании договора брони",
     reservationDeduct: "↻ ВОЗВРАЩАЕТСЯ ПРИ ПРЕДВАР. ДОГОВОРЕ",
@@ -714,28 +714,29 @@ const RESERVATION_FEE = 5000; // €, възстановима при предв
 // Връщаме функция, която взима floor и връща масив със стъпки.
 const getScheme = (schemeId, floor, L) => {
   const pM = plochaMonth(floor);
+  // B · 80/20 — 200 €/м² ПО-НИСКА цена (ранен кеш)
   if (schemeId === "aggressive") {
     return {
       id: "aggressive",
       label: L.aggressiveName,
-      subtitle: "50 / 20 / 20 / 10",
-      discountPct: 3,
+      subtitle: "80 / 20 · −200 €/м²",
+      discountPct: 0,
+      m2Adjust: -200,
       steps: [
-        { label: L.preliminary, pct: 50, when: "2026-08",
+        { label: L.preliminary, pct: 80, when: "2026-08",
           note: L.preliminaryNote, deductReservation: true },
-        { label: L.kota0, pct: 20, when: "2027-02", note: L.kota0Note },
-        { label: L.kotaFloor, pct: 20, when: pM,
-          note: L.plochaOnFloor + floor + L.sectionCalculated },
-        { label: L.akt15, pct: 10, when: "2029-08", note: L.akt15Note },
+        { label: L.akt15, pct: 20, when: "2029-08", note: L.akt15Note },
       ],
     };
   }
+  // C · 30/70 — 200 €/м² ПО-ВИСОКА цена (разсрочено) · промоция за следващите 50
   if (schemeId === "deferred") {
     return {
       id: "deferred",
       label: L.deferredName || "Промоция 30/70",
-      subtitle: "30 / 70 · ПРОМО",
+      subtitle: "30 / 70 · +200 €/м²",
       discountPct: 0,
+      m2Adjust: 200,
       isPromo: true,
       steps: [
         { label: L.preliminary, pct: 30, when: "2026-08",
@@ -744,21 +745,20 @@ const getScheme = (schemeId, floor, L) => {
       ],
     };
   }
-  // default: standard
+  // A · Стандартна 30 / 20 / 30 / 20
   return {
     id: "standard",
     label: L.standardName,
-    subtitle: "30 / 10 / 10 / 20 / 20 / 10",
+    subtitle: "30 / 20 / 30 / 20",
     discountPct: 0,
+    m2Adjust: 0,
     steps: [
       { label: L.preliminary, pct: 30, when: "2026-08",
         note: L.preliminaryNote, deductReservation: true },
-      { label: L.kota0, pct: 10, when: "2027-02", note: L.kota0Note },
-      { label: L.kotaFloor, pct: 10, when: pM,
+      { label: L.kotaFloor, pct: 20, when: pM,
         note: L.plochaOnFloor + floor },
-      { label: L.akt14, pct: 20, when: "2028-08", note: L.akt14Note },
+      { label: L.akt14, pct: 30, when: "2028-08", note: L.akt14Note },
       { label: L.akt15, pct: 20, when: "2029-08", note: L.akt15Note },
-      { label: L.akt16, pct: 10, when: "2029-12", note: L.akt16Note },
     ],
   };
 };
@@ -865,9 +865,10 @@ export default function App() {
     [paymentScheme, sel]
   );
   const totalAfterDiscount = useMemo(() => {
-    if (!scheme) return totalPackage;
-    return totalPackage * (1 - scheme.discountPct / 100);
-  }, [totalPackage, scheme]);
+    if (!scheme || !sel) return totalPackage;
+    // ±200 €/м² се прилага САМО върху РЗП на апартамента (ПМ и изба остават с фиксирана цена)
+    return totalPackage + sel.r * (scheme.m2Adjust || 0);
+  }, [totalPackage, scheme, sel]);
   const discountSaving = totalPackage - totalAfterDiscount;
 
   // EDIT F: Изчислен график — всяка стъпка с eur сума, адаптирано за резервация и отстъпка
@@ -937,7 +938,7 @@ export default function App() {
           <img src={NT_LOGO} alt="NEW TOWER" style={{ height: mob ? 34 : 46, width: "auto" }} />
           <div>
             <div style={{ fontSize: 9, color: C.grD, letterSpacing: 2, textTransform: "uppercase" }}>
-              V10.1 · Промоция 30/70 · Sky High Standards
+              V12 · 3 схеми · Sky High Standards
             </div>
           </div>
           <div style={{ marginLeft: "auto", display: "flex", alignItems: "center", gap: 12 }}>
@@ -1482,7 +1483,7 @@ export default function App() {
                       { id: "standard", label: L.standard, sub: L.standardSubVal },
                       { id: "aggressive", label: L.aggressive, sub: L.aggressiveSubVal },
                       ...([...INV.A, ...INV.B].filter(a => a.rez).length < 50
-                        ? [{ id: "deferred", label: L.deferred || "Промо 30/70", sub: "30 / 70 · следващи 50" }]
+                        ? [{ id: "deferred", label: L.deferred || "Промо 30/70", sub: "30/70 · +200 €/м²" }]
                         : []),
                     ].map((s) => (
                       <button key={s.id} onClick={() => setPaymentScheme(s.id)} style={{
@@ -1588,19 +1589,21 @@ export default function App() {
                   </div>
 
                   {/* Total row + discount banner if aggressive */}
-                  {scheme && scheme.discountPct > 0 && (
+                  {scheme && scheme.m2Adjust !== 0 && sel && (
                     <div style={{
                       marginTop: 10, padding: "10px 14px", borderRadius: 9,
-                      background: "linear-gradient(135deg," + C.ok + "22," + C.ok + "08)",
-                      border: "1px solid " + C.ok + "66",
+                      background: "linear-gradient(135deg," + (scheme.m2Adjust < 0 ? C.ok : C.gold) + "22, transparent)",
+                      border: "1px solid " + (scheme.m2Adjust < 0 ? C.ok : C.gold) + "66",
                       display: "flex", justifyContent: "space-between", alignItems: "center",
                     }}>
                       <div>
                         <div style={{ fontSize: 10, color: C.grD, letterSpacing: 1 }}>
                           Каталожна цена: <span style={{ textDecoration: "line-through", color: C.gr, ...mono }}>{fmt(totalPackage)}</span>
                         </div>
-                        <div style={{ fontSize: 13, fontWeight: 800, color: C.ok, marginTop: 2 }}>
-                          ✓ Спестявате {fmt(discountSaving)} ({scheme.discountPct}% отстъпка)
+                        <div style={{ fontSize: 13, fontWeight: 800, color: scheme.m2Adjust < 0 ? C.ok : C.gold, marginTop: 2 }}>
+                          {scheme.m2Adjust < 0
+                            ? "✓ " + L.youSave + " " + fmt(Math.abs(discountSaving)) + " (−200 €/м²)"
+                            : "+ " + L.deferSurcharge + " " + fmt(Math.abs(discountSaving)) + " (+200 €/м²)"}
                         </div>
                       </div>
                     </div>
@@ -1651,7 +1654,7 @@ export default function App() {
                           {fmt(totalPackage)}
                         </span>
                       </div>
-                      {scheme && scheme.discountPct > 0 && (
+                      {scheme && scheme.m2Adjust !== 0 && sel && (
                         <div style={{ display: "flex", justifyContent: "space-between", padding: "4px 0", color: C.ok, fontSize: 10 }}>
                           <span>{L.discount} ({scheme.discountPct}%)</span>
                           <span style={{ ...mono }}>−{fmt(discountSaving)}</span>
