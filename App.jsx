@@ -94,7 +94,7 @@ const T = {
     pickParking: "Избери първо апартамент", noParking: "Няма избрано паркомясто",
     noCellar: "Този апартамент няма прикачена изба",
     standard: "СТАНДАРТНА", aggressive: "АГРЕСИВНА −3%",
-    upToNext50: "до следващи 50", standardName: "Стандартна схема", aggressiveName: "Схема 80/20", deferredName: "Схема 30/70", youSave: "Спестявате", deferSurcharge: "Надценка за разсрочване", priceOnRequest: "Цената не е налична за резервирани обекти", inSelection: "В селекцията", addToSelection: "Добави в селекция", mySelection: "Моята селекция", inquiryTitle: "Изпрати запитване", selectedProps: "Избрани имоти", fName: "Име и фамилия *", fPhone: "Телефон *", fEmail: "Имейл", fBudget: "Бюджет (напр. до €250 000)", fComment: "Коментар / въпрос", schemeStd: "Стандартна схема", schemeAgg: "Агресивна (−3%)", schemePromo: "Промоционална 30/70", sendInquiry: "Изпрати запитване", inquiryNote: "Ще се свържем с вас в рамките на 24 часа.",
+    upToNext50: "до следващи 50", advBest: "НАЙ-НИСКА ЦЕНА ЗА ТОЗИ ИМОТ", advOnly30: "ПЛАЩАТЕ САМО 30% СЕГА", advBestNote: "Максимална изгода при пълен ангажимент: 80% при предварителния договор, останалите 20% на Акт 15.", advDeferNote: "Останалите 70% са дължими чак на Акт 15 — авг. 2029, три години по-късно. Цената се заключва днес и не се влияе от следващите ценови вълни.", advKeep: "Остава при вас до 2029:", schemeAdjLbl: "Разсрочено плащане", akt15Note3y: "Вноската от 70% е дължима на Акт 15 — авг. 2029, след 3 години от предварителния договор.", earlyCash8020: "80% при предварителния договор (авг. 2026), остатъкът 20% на Акт 15 (авг. 2029).", standardName: "Стандартна схема", aggressiveName: "Схема 80/20", deferredName: "Схема 30/70", youSave: "Спестявате", deferSurcharge: "Надценка за разсрочване", priceOnRequest: "Цената не е налична за резервирани обекти", inSelection: "В селекцията", addToSelection: "Добави в селекция", mySelection: "Моята селекция", inquiryTitle: "Изпрати запитване", selectedProps: "Избрани имоти", fName: "Име и фамилия *", fPhone: "Телефон *", fEmail: "Имейл", fBudget: "Бюджет (напр. до €250 000)", fComment: "Коментар / въпрос", schemeStd: "Стандартна схема", schemeAgg: "Агресивна (−3%)", schemePromo: "Промоционална 30/70", sendInquiry: "Изпрати запитване", inquiryNote: "Ще се свържем с вас в рамките на 24 часа.",
     reservationFee: "Резервационна такса",
     reservationNote: "при подписване на резервационен договор",
     reservationDeduct: "↻ ВЪЗСТАНОВЯВА СЕ ПРИ ПРЕДВАРИТЕЛЕН ДОГОВОР",
@@ -185,7 +185,7 @@ const T = {
     pickParking: "First select an apartment", noParking: "No parking selected",
     noCellar: "This apartment has no storage attached",
     standard: "STANDARD", aggressive: "AGGRESSIVE −3%",
-    upToNext50: "up to next 50", standardName: "Standard scheme", aggressiveName: "Scheme 80/20", deferredName: "Scheme 30/70", youSave: "You save", deferSurcharge: "Deferral surcharge", priceOnRequest: "Price not available for reserved units", inSelection: "In selection", addToSelection: "Add to selection", mySelection: "My selection", inquiryTitle: "Send inquiry", selectedProps: "Selected units", fName: "Full name *", fPhone: "Phone *", fEmail: "Email", fBudget: "Budget (e.g. up to €250,000)", fComment: "Comment / question", schemeStd: "Standard scheme", schemeAgg: "Aggressive (−3%)", schemePromo: "Promo 30/70", sendInquiry: "Send inquiry", inquiryNote: "We will contact you within 24 hours.",
+    upToNext50: "up to next 50", advBest: "LOWEST PRICE FOR THIS UNIT", advOnly30: "ONLY 30% PAYABLE NOW", advBestNote: "Maximum benefit for full commitment: 80% at the preliminary contract, the remaining 20% at Act 15.", advDeferNote: "The remaining 70% is due only at Act 15 — Aug 2029, three years later. Your price is locked today and unaffected by future price waves.", advKeep: "Stays with you until 2029:", schemeAdjLbl: "Deferred payment", akt15Note3y: "The 70% instalment is due at Act 15 — Aug 2029, three years after the preliminary contract.", earlyCash8020: "80% at the preliminary contract (Aug 2026), the remaining 20% at Act 15 (Aug 2029).", standardName: "Standard scheme", aggressiveName: "Scheme 80/20", deferredName: "Scheme 30/70", youSave: "You save", deferSurcharge: "Deferral surcharge", priceOnRequest: "Price not available for reserved units", inSelection: "In selection", addToSelection: "Add to selection", mySelection: "My selection", inquiryTitle: "Send inquiry", selectedProps: "Selected units", fName: "Full name *", fPhone: "Phone *", fEmail: "Email", fBudget: "Budget (e.g. up to €250,000)", fComment: "Comment / question", schemeStd: "Standard scheme", schemeAgg: "Aggressive (−3%)", schemePromo: "Promo 30/70", sendInquiry: "Send inquiry", inquiryNote: "We will contact you within 24 hours.",
     reservationFee: "Reservation fee",
     reservationNote: "upon signing reservation agreement",
     reservationDeduct: "↻ DEDUCTED AT PRELIMINARY CONTRACT",
@@ -276,7 +276,7 @@ const T = {
     pickParking: "Сначала выберите квартиру", noParking: "Паркоместо не выбрано",
     noCellar: "У этой квартиры нет кладовой",
     standard: "СТАНДАРТНАЯ", aggressive: "АГРЕССИВНАЯ −3%",
-    upToNext50: "до следующих 50", standardName: "Стандартная схема", aggressiveName: "Схема 80/20", deferredName: "Схема 30/70", youSave: "Вы экономите", deferSurcharge: "Наценка за рассрочку", priceOnRequest: "Цена недоступна для забронированных объектов", inSelection: "В подборке", addToSelection: "Добавить в подборку", mySelection: "Моя подборка", inquiryTitle: "Отправить запрос", selectedProps: "Выбранные объекты", fName: "Имя и фамилия *", fPhone: "Телефон *", fEmail: "Эл. почта", fBudget: "Бюджет (напр. до €250 000)", fComment: "Комментарий / вопрос", schemeStd: "Стандартная схема", schemeAgg: "Агрессивная (−3%)", schemePromo: "Промо 30/70", sendInquiry: "Отправить запрос", inquiryNote: "Мы свяжемся с вами в течение 24 часов.",
+    upToNext50: "до следующих 50", advBest: "САМАЯ НИЗКАЯ ЦЕНА", advOnly30: "СЕЙЧАС ТОЛЬКО 30%", advBestNote: "Максимальная выгода при полном обязательстве: 80% при предварительном договоре, остальные 20% на Акт 15.", advDeferNote: "Остальные 70% подлежат оплате только на Акт 15 — авг. 2029, через три года. Цена фиксируется сегодня.", advKeep: "Остаётся у вас до 2029:", schemeAdjLbl: "Рассрочка", akt15Note3y: "Взнос 70% подлежит оплате на Акт 15 — авг. 2029, через 3 года после предварительного договора.", earlyCash8020: "80% при предварительном договоре (авг. 2026), остаток 20% на Акт 15 (авг. 2029).", standardName: "Стандартная схема", aggressiveName: "Схема 80/20", deferredName: "Схема 30/70", youSave: "Вы экономите", deferSurcharge: "Наценка за рассрочку", priceOnRequest: "Цена недоступна для забронированных объектов", inSelection: "В подборке", addToSelection: "Добавить в подборку", mySelection: "Моя подборка", inquiryTitle: "Отправить запрос", selectedProps: "Выбранные объекты", fName: "Имя и фамилия *", fPhone: "Телефон *", fEmail: "Эл. почта", fBudget: "Бюджет (напр. до €250 000)", fComment: "Комментарий / вопрос", schemeStd: "Стандартная схема", schemeAgg: "Агрессивная (−3%)", schemePromo: "Промо 30/70", sendInquiry: "Отправить запрос", inquiryNote: "Мы свяжемся с вами в течение 24 часов.",
     reservationFee: "Регистрационный сбор",
     reservationNote: "при подписании договора брони",
     reservationDeduct: "↻ ВОЗВРАЩАЕТСЯ ПРИ ПРЕДВАР. ДОГОВОРЕ",
@@ -943,7 +943,7 @@ export default function App() {
           <img src={NT_LOGO} alt="NEW TOWER" style={{ height: mob ? 34 : 46, width: "auto" }} />
           <div>
             <div style={{ fontSize: 9, color: C.grD, letterSpacing: 2, textTransform: "uppercase" }}>
-              V14 · 3 схеми · Sky High Standards
+              V16 · 3 схеми · Sky High Standards
             </div>
           </div>
           <div style={{ marginLeft: "auto", display: "flex", alignItems: "center", gap: 12 }}>
@@ -1563,7 +1563,42 @@ export default function App() {
                     })}
                   </div>
 
-                  
+                  {/* ПРЕДИМСТВО НА СХЕМАТА */}
+                  {scheme && scheme.m2Adjust !== 0 && sel && (() => {
+                    const entry = totalAfterDiscount * (scheme.steps[0].pct / 100);
+                    // по стандартната до Акт 14 се плащат 80% (30+20+30)
+                    const keep = totalPackage * 0.80 - entry;
+                    const isSave = scheme.m2Adjust < 0;
+                    const col = isSave ? C.ok : C.gold;
+                    return (
+                      <div style={{
+                        marginTop: 10, padding: "12px 14px", borderRadius: 10,
+                        background: col + "18", border: "1px solid " + col + "55",
+                      }}>
+                        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: 8 }}>
+                          <span style={{ fontSize: 11, fontWeight: 800, color: col, letterSpacing: 0.3 }}>
+                            {isSave ? L.advBest : L.advOnly30}
+                          </span>
+                          <span style={{ fontSize: 17, fontWeight: 900, ...mono, color: col, whiteSpace: "nowrap" }}>
+                            {isSave ? "−" + fmt(Math.abs(discountSaving)) : fmt(entry)}
+                          </span>
+                        </div>
+                        <div style={{ fontSize: 9.5, color: C.gr, marginTop: 6, lineHeight: 1.5 }}>
+                          {isSave ? L.advBestNote : L.advDeferNote}
+                        </div>
+                        {!isSave && (
+                          <div style={{
+                            marginTop: 8, paddingTop: 8, borderTop: "1px solid " + col + "33",
+                            display: "flex", justifyContent: "space-between", alignItems: "baseline",
+                          }}>
+                            <span style={{ fontSize: 10, color: C.wh, fontWeight: 600 }}>{L.advKeep}</span>
+                            <span style={{ fontSize: 13, fontWeight: 800, ...mono, color: col }}>{fmt(keep)}</span>
+                          </div>
+                        )}
+                      </div>
+                    );
+                  })()}
+
                   <div style={{
                     marginTop: 10, padding: "12px 14px", borderRadius: 10,
                     background: "linear-gradient(135deg," + C.gold + "11," + C.gold + "05)",
@@ -1605,15 +1640,15 @@ export default function App() {
                         display: "flex", justifyContent: "space-between", color: C.gr,
                       }}>
                         <span>{L.catalog}</span>
-                        <span style={{ ...mono, color: scheme && scheme.discountPct > 0 ? C.grD : C.wh,
-                          textDecoration: scheme && scheme.discountPct > 0 ? "line-through" : "none" }}>
+                        <span style={{ ...mono, color: scheme && scheme.m2Adjust !== 0 ? C.grD : C.wh,
+                          textDecoration: scheme && scheme.m2Adjust !== 0 ? "line-through" : "none" }}>
                           {fmt(totalPackage)}
                         </span>
                       </div>
                       {scheme && scheme.m2Adjust !== 0 && sel && (
                         <div style={{ display: "flex", justifyContent: "space-between", padding: "4px 0", color: C.ok, fontSize: 10 }}>
-                          <span>{L.discount} ({scheme.discountPct}%)</span>
-                          <span style={{ ...mono }}>−{fmt(discountSaving)}</span>
+                          <span>{scheme.m2Adjust < 0 ? L.discount : L.schemeAdjLbl}</span>
+                          <span style={{ ...mono }}>{(scheme.m2Adjust < 0 ? "−" : "+") + fmt(Math.abs(discountSaving))}</span>
                         </div>
                       )}
                       <div style={{
