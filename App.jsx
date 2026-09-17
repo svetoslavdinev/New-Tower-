@@ -124,7 +124,7 @@ const T = {
     availableForSale: "свободни за продажба",
     months: ["яну","фев","мар","апр","май","юни","юли","авг","сеп","окт","ное","дек"],
     fix35K: "ФИКС €35K", fix40K: "ФИКС €40K", fix52K: "ФИКС €52K",
-    ofApt: "АПАРТАМЕНТ", ofTypeLbl: "Тип", ofRzpLbl: "РЗП", ofExport: "Експорт оферта PDF", ofPrint: "📄 Принтирай / Save as PDF", ofClose: "✕ Затвори", ofNo: "ОФЕРТА №", ofTitle: "ИНДИВИДУАЛНА ОФЕРТА · АПАРТАМЕНТ", ofLocation: "Местоположение", ofNet: "Чиста площ", ofExp: "Изложение", ofPerM2: "Цена / м² (с ДДС)", ofTotal: "ОБЩА ЦЕНА (с ДДС 20%)", ofResFee: "РЕЗЕРВАЦИОННА ТАКСА", ofResFeeNote: "при подписване на резервационен договор · възстановима", ofStep: "СТЪПКА", ofDesc: "ОПИСАНИЕ", ofDue: "СРОК", ofSum: "СУМА", ofTotNoFee: "ОБЩО (без резерв. такса)", ofTerms: "УСЛОВИЯ", ofT1: "Цените са с включен ДДС 20%", ofT2: "Без индексация на цените до Акт 16", ofT3: "Резервационна такса €5,000 — възстановима при подписване на предварителен договор", ofT4: "При неподписване — резервационната такса остава за инвеститора", ofBroker: "ВАШИЯТ БРОКЕР", ofBrokerPh: "[Брокер]", ofCompany: "Имоти Премиер · Партньор продажби NEW TOWER", ofContact: "📞 [Тел] · ✉ [Email]", ofAddr: "ул. Девня 2, Център, Варна",
+    msgNoApts: "Няма апартаменти по избраните филтри", msgPlanSoon: "План предстои", msgIzbaAttached: "Прикачена към апартамента", msgNoIzba: "Този апартамент няма прикачена изба", msgNoParking: "Няма избрано паркомясто", msgPkgTotal: "Общо пакет", msgSchedule: "ПЛАТЕЖЕН ГРАФИК", msgSelPkg: "Избран пакет", ofApt: "АПАРТАМЕНТ", ofTypeLbl: "Тип", ofRzpLbl: "РЗП", ofExport: "Експорт оферта PDF", ofPrint: "📄 Принтирай / Save as PDF", ofClose: "✕ Затвори", ofNo: "ОФЕРТА №", ofTitle: "ИНДИВИДУАЛНА ОФЕРТА · АПАРТАМЕНТ", ofLocation: "Местоположение", ofNet: "Чиста площ", ofExp: "Изложение", ofPerM2: "Цена / м² (с ДДС)", ofTotal: "ОБЩА ЦЕНА (с ДДС 20%)", ofResFee: "РЕЗЕРВАЦИОННА ТАКСА", ofResFeeNote: "при подписване на резервационен договор · възстановима", ofStep: "СТЪПКА", ofDesc: "ОПИСАНИЕ", ofDue: "СРОК", ofSum: "СУМА", ofTotNoFee: "ОБЩО (без резерв. такса)", ofTerms: "УСЛОВИЯ", ofT1: "Цените са с включен ДДС 20%", ofT2: "Без индексация на цените до Акт 16", ofT3: "Резервационна такса €5,000 — възстановима при подписване на предварителен договор", ofT4: "При неподписване — резервационната такса остава за инвеститора", ofBroker: "ВАШИЯТ БРОКЕР", ofBrokerPh: "[Брокер]", ofCompany: "Имоти Премиер · Партньор продажби NEW TOWER", ofContact: "📞 [Тел] · ✉ [Email]", ofAddr: "ул. Девня 2, Център, Варна",
   },
   en: {
     archCaption: "Architecture: Urban Creative · arch. D. Boyadzhiev · scale 1:100",
@@ -216,7 +216,7 @@ const T = {
     availableForSale: "available for sale",
     months: ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
     fix35K: "FIXED €35K", fix40K: "FIXED €40K", fix52K: "FIXED €52K",
-    ofApt: "APARTMENT", ofTypeLbl: "Type", ofRzpLbl: "Gross area", ofExport: "Export offer PDF", ofPrint: "📄 Print / Save as PDF", ofClose: "✕ Close", ofNo: "OFFER No.", ofTitle: "INDIVIDUAL OFFER · APARTMENT", ofLocation: "Location", ofNet: "Net area", ofExp: "Exposure", ofPerM2: "Price / m² (VAT incl.)", ofTotal: "TOTAL PRICE (VAT 20% incl.)", ofResFee: "RESERVATION FEE", ofResFeeNote: "on signing the reservation agreement · refundable", ofStep: "STAGE", ofDesc: "DESCRIPTION", ofDue: "DUE", ofSum: "AMOUNT", ofTotNoFee: "TOTAL (excl. reservation fee)", ofTerms: "TERMS", ofT1: "Prices include 20% VAT", ofT2: "No price indexation until Act 16", ofT3: "Reservation fee €5,000 — credited on signing the preliminary contract", ofT4: "If the contract is not signed, the reservation fee is retained by the developer", ofBroker: "YOUR AGENT", ofBrokerPh: "[Agent]", ofCompany: "Imoti Premier · Sales partner NEW TOWER", ofContact: "📞 [Phone] · ✉ [Email]", ofAddr: "2 Devnya St, Downtown, Varna",
+    msgNoApts: "No apartments match the selected filters", msgPlanSoon: "Floor plan coming soon", msgIzbaAttached: "Attached to the apartment", msgNoIzba: "This apartment has no storage unit", msgNoParking: "No parking space selected", msgPkgTotal: "Package total", msgSchedule: "PAYMENT SCHEDULE", msgSelPkg: "Selected package", ofApt: "APARTMENT", ofTypeLbl: "Type", ofRzpLbl: "Gross area", ofExport: "Export offer PDF", ofPrint: "📄 Print / Save as PDF", ofClose: "✕ Close", ofNo: "OFFER No.", ofTitle: "INDIVIDUAL OFFER · APARTMENT", ofLocation: "Location", ofNet: "Net area", ofExp: "Exposure", ofPerM2: "Price / m² (VAT incl.)", ofTotal: "TOTAL PRICE (VAT 20% incl.)", ofResFee: "RESERVATION FEE", ofResFeeNote: "on signing the reservation agreement · refundable", ofStep: "STAGE", ofDesc: "DESCRIPTION", ofDue: "DUE", ofSum: "AMOUNT", ofTotNoFee: "TOTAL (excl. reservation fee)", ofTerms: "TERMS", ofT1: "Prices include 20% VAT", ofT2: "No price indexation until Act 16", ofT3: "Reservation fee €5,000 — credited on signing the preliminary contract", ofT4: "If the contract is not signed, the reservation fee is retained by the developer", ofBroker: "YOUR AGENT", ofBrokerPh: "[Agent]", ofCompany: "Imoti Premier · Sales partner NEW TOWER", ofContact: "📞 [Phone] · ✉ [Email]", ofAddr: "2 Devnya St, Downtown, Varna",
   },
   ru: {
     archCaption: "Архитектура: Urban Creative · арх. Д. Бояджиев · М 1:100",
@@ -308,7 +308,7 @@ const T = {
     availableForSale: "свободно для продажи",
     months: ["янв","фев","мар","апр","май","июн","июл","авг","сен","окт","ноя","дек"],
     fix35K: "ФИКС €35K", fix40K: "ФИКС €40K", fix52K: "ФИКС €52K",
-    ofApt: "КВАРТИРА", ofTypeLbl: "Тип", ofRzpLbl: "Общая площадь", ofExport: "Экспорт КП в PDF", ofPrint: "📄 Печать / Сохранить в PDF", ofClose: "✕ Закрыть", ofNo: "КП №", ofTitle: "ИНДИВИДУАЛЬНОЕ ПРЕДЛОЖЕНИЕ · КВАРТИРА", ofLocation: "Расположение", ofNet: "Чистая площадь", ofExp: "Ориентация", ofPerM2: "Цена / м² (с НДС)", ofTotal: "ОБЩАЯ ЦЕНА (с НДС 20%)", ofResFee: "РЕЗЕРВАЦИОННЫЙ СБОР", ofResFeeNote: "при подписании договора резервации · возвратный", ofStep: "ЭТАП", ofDesc: "ОПИСАНИЕ", ofDue: "СРОК", ofSum: "СУММА", ofTotNoFee: "ИТОГО (без резерв. сбора)", ofTerms: "УСЛОВИЯ", ofT1: "Цены включают НДС 20%", ofT2: "Без индексации цен до Акта 16", ofT3: "Резервационный сбор €5 000 — засчитывается при подписании предварительного договора", ofT4: "При неподписании сбор остаётся у застройщика", ofBroker: "ВАШ БРОКЕР", ofBrokerPh: "[Брокер]", ofCompany: "Имоти Премиер · Партнёр по продажам NEW TOWER", ofContact: "📞 [Тел] · ✉ [Email]", ofAddr: "ул. Девня 2, Центр, Варна",
+    msgNoApts: "Нет квартир по выбранным фильтрам", msgPlanSoon: "План скоро будет добавлен", msgIzbaAttached: "Прикреплена к квартире", msgNoIzba: "У этой квартиры нет кладовой", msgNoParking: "Парковочное место не выбрано", msgPkgTotal: "Итого пакет", msgSchedule: "ГРАФИК ПЛАТЕЖЕЙ", msgSelPkg: "Выбранный пакет", ofApt: "КВАРТИРА", ofTypeLbl: "Тип", ofRzpLbl: "Общая площадь", ofExport: "Экспорт КП в PDF", ofPrint: "📄 Печать / Сохранить в PDF", ofClose: "✕ Закрыть", ofNo: "КП №", ofTitle: "ИНДИВИДУАЛЬНОЕ ПРЕДЛОЖЕНИЕ · КВАРТИРА", ofLocation: "Расположение", ofNet: "Чистая площадь", ofExp: "Ориентация", ofPerM2: "Цена / м² (с НДС)", ofTotal: "ОБЩАЯ ЦЕНА (с НДС 20%)", ofResFee: "РЕЗЕРВАЦИОННЫЙ СБОР", ofResFeeNote: "при подписании договора резервации · возвратный", ofStep: "ЭТАП", ofDesc: "ОПИСАНИЕ", ofDue: "СРОК", ofSum: "СУММА", ofTotNoFee: "ИТОГО (без резерв. сбора)", ofTerms: "УСЛОВИЯ", ofT1: "Цены включают НДС 20%", ofT2: "Без индексации цен до Акта 16", ofT3: "Резервационный сбор €5 000 — засчитывается при подписании предварительного договора", ofT4: "При неподписании сбор остаётся у застройщика", ofBroker: "ВАШ БРОКЕР", ofBrokerPh: "[Брокер]", ofCompany: "Имоти Премиер · Партнёр по продажам NEW TOWER", ofContact: "📞 [Тел] · ✉ [Email]", ofAddr: "ул. Девня 2, Центр, Варна",
   },
 };
 
@@ -964,7 +964,7 @@ export default function App() {
           <img src={NT_LOGO} alt="NEW TOWER" style={{ height: mob ? 34 : 46, width: "auto" }} />
           <div>
             <div style={{ fontSize: 9, color: C.grD, letterSpacing: 2, textTransform: "uppercase" }}>
-              V21 · 3 схеми · Sky High Standards
+              V22 · 3 схеми · Sky High Standards
             </div>
           </div>
           <div style={{ marginLeft: "auto", display: "flex", alignItems: "center", gap: 12 }}>
@@ -1106,7 +1106,7 @@ export default function App() {
 
               {apts.length === 0 ? (
                 <div style={{ textAlign: "center", padding: 40, color: C.grD, fontSize: 12 }}>
-                  Няма апартаменти по избраните филтри
+                  {L.msgNoApts}
                 </div>
               ) : (
                 <div style={{ overflowX: "auto" }}>
@@ -1138,7 +1138,7 @@ export default function App() {
                             <td style={{ padding: "8px 6px", textAlign: "right", color: isRez ? "#B91C1C" : (isSold ? "#6B7280" : (isSel ? C.gold : C.wh)), fontWeight: 700, ...mono }}>{a.n}</td>
                             <td style={{ padding: "8px 6px", textAlign: "right", color: C.gr, ...mono }}>{a.f}</td>
                             <td style={{ padding: "8px 6px", color: isSold ? C.gr : C.wh, fontWeight: 500 }}>
-                              {a.t}
+                              {tType(a.t, lang)}
                               {isRez && (
                                 <span style={{
                                   marginLeft: 6, padding: "1px 6px", borderRadius: 3,
@@ -1250,7 +1250,7 @@ export default function App() {
                       }}>
                         <div style={{ fontSize: 28, opacity: 0.25, marginBottom: 8 }}>▦</div>
                         <div style={{ fontSize: 11, fontWeight: 700, color: C.gr, marginBottom: 4 }}>
-                          План предстои
+                          {L.msgPlanSoon}
                         </div>
                         <div style={{ fontSize: 9, color: C.grD, lineHeight: 1.5 }}>
                           {L.archPlanFor} 
@@ -1258,7 +1258,7 @@ export default function App() {
                       </div>
                     )}
                     <div style={{ fontSize: 8, color: C.grD, textAlign: "center", marginTop: 6, fontStyle: "italic" }}>
-                      Архитектура: Urban Creative · арх. Д. Бояджиев · М 1:100
+                      {L.archCaption}
                     </div>
                   </div>
 
@@ -1319,7 +1319,7 @@ export default function App() {
                       }}>
                         <div>
                           <div style={{ fontSize: 9, color: C.grD, textTransform: "uppercase" }}>
-                            Прикачена към апартамента
+                            {L.msgIzbaAttached}
                           </div>
                           <div style={{ fontSize: 13, fontWeight: 700, color: C.ok, ...mono }}>{activeIzba.id}</div>
                           <div style={{ fontSize: 10, color: C.gr, marginTop: 2 }}>
@@ -1339,7 +1339,7 @@ export default function App() {
                         background: C.navyD, border: "1px dashed " + C.navyL,
                         fontSize: 10, color: C.grD, textAlign: "center",
                       }}>
-                        Този апартамент няма прикачена изба
+                        {L.msgNoIzba}
                       </div>
                     )}
                   </div>
@@ -1375,7 +1375,7 @@ export default function App() {
                         background: C.navyD, border: "1px dashed " + C.navyL,
                         fontSize: 10, color: C.grD, textAlign: "center",
                       }}>
-                        Няма избрано паркомясто
+                        {L.msgNoParking}
                       </div>
                     )}
                     <button onClick={() => setShowParkingPicker(!showParkingPicker)} style={{
@@ -1425,7 +1425,7 @@ export default function App() {
                     border: "1px solid " + C.gold + "66",
                   }}>
                     <div style={{ fontSize: 9, color: C.grD, textTransform: "uppercase", letterSpacing: 1, marginBottom: 4 }}>
-                      Общо пакет
+                      {L.msgPkgTotal}
                     </div>
                     <div style={{ fontSize: 24, fontWeight: 900, color: C.gold, ...mono }}>
                       {fmt(totalPackage)}
@@ -1496,7 +1496,7 @@ export default function App() {
 
                   <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", marginBottom: 14 }}>
                     <h3 style={{ margin: 0, fontSize: 13, color: C.gold, letterSpacing: 1 }}>
-                      ПЛАТЕЖЕН ГРАФИК
+                      {L.msgSchedule}
                     </h3>
                     <span style={{ fontSize: 9, color: C.grD }}>{scheme && scheme.label + " · " + scheme.subtitle}</span>
                   </div>
@@ -1516,10 +1516,10 @@ export default function App() {
                     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline" }}>
                       <div>
                         <div style={{ fontSize: 12, fontWeight: 700, color: C.wh }}>
-                          Резервационна такса
+                          {L.reservationFee}
                         </div>
                         <div style={{ fontSize: 9, color: C.grD, marginTop: 2 }}>
-                          при подписване на резервационен договор
+                          {L.reservationNote}
                         </div>
                       </div>
                       <div style={{ fontSize: 16, fontWeight: 900, color: C.pur, ...mono }}>
@@ -1635,12 +1635,12 @@ export default function App() {
                 <div>
                   <div style={{ ...card, background: "linear-gradient(135deg," + C.navyL + "," + C.navyM + ")", border: "1px solid " + C.gold + "44" }}>
                     <div style={{ fontSize: 9, color: C.grD, letterSpacing: 1, textTransform: "uppercase", marginBottom: 4 }}>
-                      Избран пакет
+                      {L.msgSelPkg}
                     </div>
                     <div style={{ fontSize: 13, fontWeight: 700, color: C.wh }}>
                       {L.sec}{secL(sel.s)} · {L.apt}{sel.n} · {L.et}{sel.f}
                     </div>
-                    <div style={{ fontSize: 11, color: C.gr, marginTop: 2 }}>{sel.t} · {sel.e}</div>
+                    <div style={{ fontSize: 11, color: C.gr, marginTop: 2 }}>{tType(sel.t, lang)} · {tDir(sel.e, lang)}</div>
 
                     <div style={{ marginTop: 14, fontSize: 11 }}>
                       <div style={{ display: "flex", justifyContent: "space-between", padding: "4px 0", color: C.gr }}>
@@ -1960,7 +1960,7 @@ export default function App() {
                     </div>
                     <div className="nt-o-row">
                       <span className="lbl">{L.ofTypeLbl}</span>
-                      <span className="val">{sel.t}</span>
+                      <span className="val">{tType(sel.t, lang)}</span>
                     </div>
                     <div className="nt-o-row">
                       <span className="lbl">{L.ofRzpLbl}</span>
@@ -1968,7 +1968,7 @@ export default function App() {
                     </div>
                     <div className="nt-o-row">
                       <span className="lbl">{L.ofExp}</span>
-                      <span className="val">{sel.e}</span>
+                      <span className="val">{tDir(sel.e, lang)}</span>
                     </div>
                     <div className="nt-o-row">
                       <span className="lbl">{L.ofPerM2}</span>
