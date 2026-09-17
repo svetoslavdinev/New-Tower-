@@ -121,7 +121,7 @@ const T = {
     compareHint: 'От таба "Инвентар" избери апартамент и натисни "+ Сравнение". До 3 варианта.',
     compareEmpty: "Кликни ред от таблицата за детайли",
     aptPriceCap: "ЦЕНА НА АПАРТАМЕНТА",
-    availableByFilters: "свободни по филтри",
+    availableForSale: "свободни за продажба",
     months: ["яну","фев","мар","апр","май","юни","юли","авг","сеп","окт","ное","дек"],
     fix35K: "ФИКС €35K", fix40K: "ФИКС €40K", fix52K: "ФИКС €52K",
   },
@@ -212,7 +212,7 @@ const T = {
     compareHint: 'From "Inventory" tab pick an apartment and click "+ Compare". Up to 3 variants.',
     compareEmpty: "Click a table row for details",
     aptPriceCap: "APARTMENT PRICE",
-    availableByFilters: "available by filters",
+    availableForSale: "available for sale",
     months: ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],
     fix35K: "FIXED €35K", fix40K: "FIXED €40K", fix52K: "FIXED €52K",
   },
@@ -303,7 +303,7 @@ const T = {
     compareHint: 'В вкладке "Каталог" выберите квартиру и нажмите "+ Сравнение". До 3 вариантов.',
     compareEmpty: "Кликните на строку таблицы для деталей",
     aptPriceCap: "ЦЕНА КВАРТИРЫ",
-    availableByFilters: "свободно по фильтрам",
+    availableForSale: "свободно для продажи",
     months: ["янв","фев","мар","апр","май","июн","июл","авг","сен","окт","ноя","дек"],
     fix35K: "ФИКС €35K", fix40K: "ФИКС €40K", fix52K: "ФИКС €52K",
   },
@@ -943,7 +943,7 @@ export default function App() {
           <img src={NT_LOGO} alt="NEW TOWER" style={{ height: mob ? 34 : 46, width: "auto" }} />
           <div>
             <div style={{ fontSize: 9, color: C.grD, letterSpacing: 2, textTransform: "uppercase" }}>
-              V17 · 3 схеми · Sky High Standards
+              V18 · 3 схеми · Sky High Standards
             </div>
           </div>
           <div style={{ marginLeft: "auto", display: "flex", alignItems: "center", gap: 12 }}>
@@ -1069,8 +1069,8 @@ export default function App() {
                 background: C.navyD, border: "1px dashed " + C.navyL,
                 fontSize: 10, color: C.gr, textAlign: "center",
               }}>
-                <b style={{ color: C.gold, fontSize: 14, ...mono }}>{apts.length}</b> / {totalInSec}
-                <div style={{ fontSize: 9, color: C.grD, marginTop: 2 }}>{L.availableByFilters}</div>
+                <b style={{ color: C.gold, fontSize: 14, ...mono }}>{apts.filter((a) => !a.sold && !a.rez).length}</b> / {apts.length}
+                <div style={{ fontSize: 9, color: C.grD, marginTop: 2 }}>{L.availableForSale}</div>
               </div>
             </div>
 
